@@ -1,0 +1,24 @@
+﻿
+@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>Add</title>
+</head>
+<body>
+    <div> 
+        <h2>Adding the following users:</h2>
+        <ul>
+            @foreach (var user in ViewBag.Users)
+            {
+                <li>@user</li>
+            }
+        </ul>
+    </div>
+</body>
+</html>
