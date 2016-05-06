@@ -1,0 +1,13 @@
+﻿
+@{
+    ViewBag.Title = "Update";
+}
+
+<h2>Update</h2>
+<form method="post" action="~/projects/update">
+    <input type="hidden" value="@ViewBag.Project.ID" name="id" /><br />
+    <input type="text" value="@ViewBag.Project.Name" name="name" /><br />
+    <input type="number" value="@ViewBag.Project.Estimate" name="estimate"/><br />
+    <input type="text" value="@ViewBag.Project.Description" name="desc"/><br />
+    <input type="submit" value="Submit" />
+</form>
