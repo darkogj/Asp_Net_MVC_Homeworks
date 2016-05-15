@@ -1,0 +1,14 @@
+﻿
+@{
+    ViewBag.Title = "Login";
+    var disabledStatus = (Boolean)TempData["isDisabled"] ? "disabled" : "";
+}
+<h2>Login</h2>
+<p>Equipment</p>
+<form action="~/Equipment/Login" method="post">
+    <p>@TempData["message"]</p>
+    <label for="username">
+        Username: <input type="username" class="form-control" id="username" name="username" @disabledStatus/><br />
+        <label for="password"></label>Password: <input type="password" class="form-control" id="password" name="password" @disabledStatus/><br />
+        <input type="submit" class="btn btn-info" value="Log in" />
+</form>

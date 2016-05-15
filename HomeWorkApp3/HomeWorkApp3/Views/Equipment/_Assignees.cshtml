@@ -1,0 +1,33 @@
+﻿@model IEnumerable<string>
+
+<div class="btn-group">
+    <p>Assignees:</p>
+    @{ var randomColors = GenerateHexColors(Model.Count()); int i = -1; }
+        @foreach (var person in Model)
+        {
+            
+            @Html.ActionLink(person, "SearchByAssignee", "Equipment", new { assignee = person},
+           new { @class = "btn btn-info", @style = $"background-color: {randomColors[++i]}; margin-right: 5px" })
+    }
+
+
+</div>
+
+@functions {
+
+    public List<string> GenerateHexColors(int numColors)
+    {
+        var colors = new List<string>();
+        var random = new Random(); // Make sure this is out of the loop!
+
+        while (colors.Count() < numColors)
+        {
+            var randomColor = String.Format("#{0:X6}", random.Next(0x1000000));
+            if (!colors.Contains(randomColor))
+            {
+                colors.Add(randomColor);
+            }
+        }
+        return colors;
+    }
+}
