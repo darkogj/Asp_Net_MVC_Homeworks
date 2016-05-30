@@ -1,0 +1,5 @@
+c:\users\user\documents\visual studio 2015\Projects\AirportSolution\Airport.Entities\bin\Debug\Airport.Entities.dll
+c:\users\user\documents\visual studio 2015\Projects\AirportSolution\Airport.Entities\bin\Debug\Airport.Entities.pdb
+c:\users\user\documents\visual studio 2015\Projects\AirportSolution\Airport.Entities\obj\Debug\Airport.Entities.csprojResolveAssemblyReference.cache
+c:\users\user\documents\visual studio 2015\Projects\AirportSolution\Airport.Entities\obj\Debug\Airport.Entities.dll
+c:\users\user\documents\visual studio 2015\Projects\AirportSolution\Airport.Entities\obj\Debug\Airport.Entities.pdb

@@ -1,0 +1,12 @@
+c:\users\user\documents\visual studio 2015\Projects\AirportSolution\Airport.Repository\bin\Debug\Airport.Repository.dll.config
+c:\users\user\documents\visual studio 2015\Projects\AirportSolution\Airport.Repository\bin\Debug\Airport.Repository.dll
+c:\users\user\documents\visual studio 2015\Projects\AirportSolution\Airport.Repository\bin\Debug\Airport.Repository.pdb
+c:\users\user\documents\visual studio 2015\Projects\AirportSolution\Airport.Repository\bin\Debug\Airport.Entities.dll
+c:\users\user\documents\visual studio 2015\Projects\AirportSolution\Airport.Repository\bin\Debug\EntityFramework.dll
+c:\users\user\documents\visual studio 2015\Projects\AirportSolution\Airport.Repository\bin\Debug\EntityFramework.SqlServer.dll
+c:\users\user\documents\visual studio 2015\Projects\AirportSolution\Airport.Repository\bin\Debug\Airport.Entities.pdb
+c:\users\user\documents\visual studio 2015\Projects\AirportSolution\Airport.Repository\bin\Debug\EntityFramework.xml
+c:\users\user\documents\visual studio 2015\Projects\AirportSolution\Airport.Repository\bin\Debug\EntityFramework.SqlServer.xml
+c:\users\user\documents\visual studio 2015\Projects\AirportSolution\Airport.Repository\obj\Debug\Airport.Repository.csprojResolveAssemblyReference.cache
+c:\users\user\documents\visual studio 2015\Projects\AirportSolution\Airport.Repository\obj\Debug\Airport.Repository.dll
+c:\users\user\documents\visual studio 2015\Projects\AirportSolution\Airport.Repository\obj\Debug\Airport.Repository.pdb
